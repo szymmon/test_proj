@@ -42,5 +42,5 @@ int main() {
   auto val2 = & val;
   
   cout << std::accumulate(test.begin(), test.end(), 1) << endl;
-  assert(false);
+  assert(true);
 }
