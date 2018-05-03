@@ -41,6 +41,6 @@ int main() {
   auto val = 7;
   auto val2 = & val;
   
-  cout << std::accumulate(test.begin(), test.end(), 1) << endl;
+  cout << std::accumulate(test.begin(), test.end(), 1)  + 7 << endl;
   assert(true);
 }
