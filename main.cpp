@@ -1,6 +1,7 @@
 #include <iostream>
 #include <numeric>
 #include <vector>
+#include <assert.h>
 
 int b = 5;
 
@@ -40,5 +41,6 @@ int main() {
   auto val = 7;
   auto val2 = & val;
   
-  cout << std::accumulate(test.begin(), test.end(), 1) << endl;  
+  cout << std::accumulate(test.begin(), test.end(), 1) << endl;
+  assert(false);
 }
